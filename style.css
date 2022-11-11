@@ -1,0 +1,30 @@
+.book {
+  height: 37vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: absolute;
+  background-color: red;
+}
+.book .book-info {
+  position: absolute;
+  top: 30vh;
+  transition: 0.2s;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+.book .book-info h1 {
+  margin-bottom: 0;
+}
+.book .book-info .description {
+  border-top: 1px solid white;
+  padding-top: 1rem;
+  position: absolute;
+}
+
+.book:hover .book-info {
+  top: 5vh;
+}
+
+/*# sourceMappingURL=style.css.map */
