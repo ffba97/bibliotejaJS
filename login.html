@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/login.js" type="module" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login">
+            <h2>Iniciar Sesi&oacute;n</h2>
+            <form action="#" method="post">
+                <input type="text" id="user" placeholder="Usuario">
+                <input type="password" id="pass" placeholder="Contraseña">
+                <input type="submit" class="btn btn-ok" value="Login" id="login">
+            </form>
+        </div>
+
+        <div class="logeado d-none">
+           <h2 id="estasLogeado">Estas logueado</h2>
+           <form>
+            <a href="/"><input type="button" class="btn" value="Ir al Inicio"></a>
+            <input type="submit" class="btn btn-danger" value="Cerrar Sesi&oacute;n" id="logout">
+           </form>
+        </div>
+
+    </div>
+</body>
+</html>

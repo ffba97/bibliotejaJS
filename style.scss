@@ -56,8 +56,16 @@ option {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
+}
+
+nav{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .login-container {
@@ -102,6 +110,7 @@ option {
     width: min-content;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
 
     .book {
         margin: 0.3rem;
